@@ -1,0 +1,8 @@
+cd ~/ai-data-assistant
+cat > .gitignore << 'EOF'
+.env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+EOF
